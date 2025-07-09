@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/compare/v2.1.0...v2.1.1) (2025-07-09)
+
+
+### Bug Fixes
+
+* test 2.1.0 -&gt; 2.1.1 ([3e69a6e](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/3e69a6e8e75d3f33025bcc604a3c391a29e4ea8b))
+
 ## [2.1.0](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/compare/v2.0.0...v2.1.0) (2025-07-09)
 
 
