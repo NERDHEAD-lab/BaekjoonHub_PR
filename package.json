@@ -1,6 +1,6 @@
 {
   "name": "baekjoonhub",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Chrome extension that automatically pushes your code to GitHub from competitive programming platforms",
   "main": "index.js",
   "scripts": {
