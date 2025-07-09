@@ -1,0 +1,57 @@
+# Changelog
+
+## [2.1.0](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/compare/v2.0.0...v2.1.0) (2025-07-09)
+
+
+### Features
+
+* *.LICENSE.txt 제외 로직 제거 (오픈소스에서 license 고지를 제거하면 법적 문제가 될 수도 있음) ([f1ece77](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/f1ece7701088c2bcf38f25a3b170906ea1990289))
+* add custom directory template support with safe-template-parser ([d7a4cb0](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/d7a4cb003dc9f4d751da35651878212bc5a71d27))
+* add workflow_dispatch trigger for manual workflow execution ([4b5777b](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/4b5777b91723ba7d7a2ce6d2d61fea2bc14b7325))
+* **ci:** enhance GitHub Action for automated releases ([d568c54](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/d568c54faa2dbbed5608e08373b3903401d86612))
+* enhance repository selection with full-path format ([80ea388](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/80ea388ee29db2b2d25b1c2be854d217f3051c62))
+* **gfg:** added script for GeeksForGeeks ([7c38c40](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/7c38c40631d62556ee5f0cf4a2dc7cc7e5e92616))
+* github action을 수동으로 동작시킬 수 있도록 추가 ([4f77105](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/4f77105303cb4ade21ac287c0d3ec7677ce0a4b4))
+* HTML 기반 프로그래머스 레벨 파싱 ([#227](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/227)) ([71060d6](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/71060d6c5178fd3a4d7f181c0ac8d7185ec47609))
+* implement standardized platform data structure ([e77ae4d](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/e77ae4dc58ca79ca1ef3a62517f239b8feb9eb06))
+* package 간소화 ([21f8e43](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/21f8e43d5f6699c4c235bfb406b2c0756bae0024))
+* Support submissions from Leetcode Explore card ([2a6397e](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/2a6397e51834bfb903cf1c69a65e6a617efa8c16))
+* Support submissions from Leetcode Explore card ([72180bc](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/72180bc61ea0a7a54b937bc17935f9bad0748f39))
+* workflow에서 버전을 변경하기 위해 불필요한 pipeline 제거 ([7fb9c45](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/7fb9c45b4b62a3b9c2c2cc9cc1ad873960251fab))
+* 구름레벨 커밋 메세지 상단을 문제 난이도 표기로 변경 ([#271](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/271)) ([1e0f50c](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/1e0f50cda7b84e420ac344fcc4dd475e770bfd2d))
+* 백준허브 플랫폼에 goormlevel 적용 ([#250](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/250)) ([9314610](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/93146100729172224c896d49225ee0210a34b395))
+* 업로드 완료 아이콘에 업로드된 깃허브 링크 연결 ([#211](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/211)) ([903a95e](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/903a95e9415046e0c6fae9ef3829a5fc63012231))
+* 프로젝트 일관성을 위해 ES 모듈 방식으로 전환 ([1daf2a4](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/1daf2a4466d015dbd42ed19da14373d80b3dd14a))
+
+
+### Bug Fixes
+
+* baekjoon subtask upload issue ([#189](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/189)) ([#191](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/191)) ([d0bcd31](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/d0bcd31f14b256229ebe12d866c23c4c6d8a1d05))
+* CORS Issue and Deprecate Bulk Uploading ([#173](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/173)) ([131693b](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/131693b34f9fb3cddfbf870886f19eac5c8779e3))
+* fix build failures ([f88a2ee](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/f88a2ee806b2f413e4179ece82a08b2aca83442e))
+* fix filename and multiple requests to gh api ([e722f07](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/e722f076f8aaf9972e372262184388692ee25e3f))
+* fix formatting ([9d07842](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/9d07842a01ce3366d37a52202323389973e46983))
+* fix incomplete content issue with Java/C++ ([2850286](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/28502860628074fe08d61cd04e0e38b82f6a0951))
+* formatting and documentation ([7890856](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/7890856993694cae230b1273cfb294c58aa43ce4))
+* **gfg:** fix timeout and js detection issue ([d28b233](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/d28b233cff2599492ec7367547c39c3bc74f1e91))
+* **gfg:** fixed submission error ([8c723bd](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/8c723bdfaba3083a16a19482069c4139662f595c))
+* **gfg:** fixed submission error ([f5992bf](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/f5992bf8b9780ae4acee9f9c1fce4fdfaf9a0b0a))
+* **goorm:** handle new div-based editor structure in parseData ([#298](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/298)) ([548eb0f](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/548eb0fdbba35b472397c71a6a2389cd3fc74e3d))
+* Invalid NaN comparison causing [#207](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/207) issue ([#208](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/208)) ([d038dd1](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/d038dd11761ab5247be492f9800ac363d6f67198))
+* multiple PUT requests to gh ([75dffe3](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/75dffe396aca4b5fa59ce6a032290e294ed3c0ff))
+* multiple PUT requests to gh ([4d5b11a](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/4d5b11ad7264856937443ae5264b1d2137cbb5d0))
+* only start fetching dom objects on /problems page ([f943c7d](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/f943c7d7cc7ac236f533c2e11a3ab1ca8e4d5176))
+* only tiny modify background.js  ([34af879](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/34af879516187b892d36a15de71674488580696b))
+* pass strings through utility functions before base64 encode ([3270128](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/32701288c40b5dd5fed53db21b5f3cd5caa25dc9))
+* prevent multiple readme commits ([356910e](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/356910e37a1df3ad5e673044f74d470f443cf425))
+* Programmers parsing result_message ([#198](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/198)) ([befe599](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/befe599aa5f55920560a1813e27cf51618535925))
+* SWEA, 프로그래머스 문제 제출 시 시간 포멧팅이 잘못 나오는 오류 수정 ([#246](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/246)) ([a4a6ef2](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/a4a6ef22cf5725bf1e3ac23d61aec4372253aa09))
+* update manifest version ([dc5f450](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/dc5f450fedd86ef96b1fbb290684a48e224cd743))
+* 구름레벨 정답 제출 후 푸시가 되지 않는 문제 수정 ([#283](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/283)) ([b53e6a6](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/b53e6a621a197494dd3e3c2b89f8a70465247157))
+* 백준 문제 제출 시 시간 포멧팅이 잘못 나오는 오류 수정 ([#244](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/244)) ([0917b7c](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/0917b7c4a5a71e2407c0c4dbaa85c1b9f830dd8b))
+* 백준 문제의 bojData가 일부 비어있는 경우 커밋 실패 수정 ([#262](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/262)) ([ba5e8d7](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/ba5e8d7c46e470eb5b96d1e865b9b6c1f8b6b883))
+* 백준 문제풀이 후 세부 티어가 포함된 디렉토리로 푸시 되는 에러 해결 ([#241](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/241)) ([ed4dfbb](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/ed4dfbb37d7ff4155620c3b5b1074a1a4d8f103f))
+* 일괄된 tag 네이밍 규칙 적용 (v0.0.0) ([0f25941](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/0f25941a140064cbd7a679da18d2c257b84dcc08))
+* 커밋 메시지 삭제 ([#247](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/247)) ([22e1ed4](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/22e1ed4f8d963a39dfeeeab604a118a9fc5f623e))
+* 프로그래머스 풀이시간 파싱 수정 ([#267](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/267)) ([f4bb2a6](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/f4bb2a63cd8a40fc850f7a938b0fd91a0fa7fa63))
+* 프로그래밍 언어-확장자 매핑 객체 잘못된 부분 수정 ([#252](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/issues/252)) ([df97f0b](https://github.com/NERDHEAD-lab/BaekjoonHub_PR/commit/df97f0b75ad0f52532898b09020c7873ecf84e8d))
